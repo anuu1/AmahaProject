@@ -1,0 +1,38 @@
+.column-container {
+    min-height: 5rem;
+}
+
+.header-container {
+    padding: 0 .5rem;
+    /* width: 14.5rem; */
+}
+
+.header {
+    font-size: .75rem;
+
+}
+
+.header-icon {
+    margin-right: .5rem;
+    height: .9rem;
+}
+
+.add {
+    margin-right: .5rem;
+    height: 1rem;
+    cursor: pointer;
+    transition: .15s;
+}
+.add:hover {
+    transform: scale(1.25);
+}
+
+.three-dot {
+    height: 1rem;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.three-dot:hover {
+    transform: scale(1.25);
+}

@@ -1,0 +1,132 @@
+
+
+/* card-component styles */
+
+.card-container {
+    height: 6rem;
+    font-size: .75rem;
+    box-shadow: 0 0.125rem 0.7rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    margin-top: .5rem;
+    padding: .25rem;
+    background-color: white;
+    cursor: move;
+    user-select: none;
+    position: relative;
+}
+
+
+.first-row {
+    /* border: 1px solid black; */
+    height: 1rem;
+    padding: .25rem;
+}
+
+.second-row {
+    padding: .25rem;
+    font-size: .8rem;
+}
+
+.status-icon-div {
+    margin-right: .5rem;
+}
+
+.status-icon {
+    height: .85rem;
+}
+
+.title-div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+}
+
+.third-row {
+    padding: .25rem;
+}
+
+.priority-icon {
+    margin-right: .5rem;
+    border: .07rem solid cyan;
+    border-radius: .3rem;
+    height: 1rem;
+    width: 1.25rem;
+    padding-right:.1rem;
+}
+
+.priority-icon img {
+    height: .85rem;
+}
+
+
+
+.tag {
+    appearance: none;
+    border: 0.07rem px solid cyan;
+    border-radius: .3rem;
+    padding-right: .3rem;
+    height: 1rem;
+    color: grey;
+    font-weight: 500;
+}
+
+.feature-dot {
+    font-size: 1rem;
+}
+
+
+/* User component Style */
+
+
+.user-container {
+    height: 1.5rem;
+    width: 2rem;
+    font-size: 1.5rem;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+
+}
+
+.badge-icon {
+    height: .5rem;
+    width: .5rem;
+    border: 0.1rem solid rgb(241, 241, 247);
+    border-radius: 50%;
+    transform: translate(1rem, -1rem);
+    display: block;
+
+}
+
+
+
+
+.active {
+    background-color: orange;
+}
+
+.in-active {
+    background-color: silver;
+}
+
+.bin-icon {
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+.user-window {
+    padding-top: 5px;
+}
+
+.edit-icon {
+    font-size: 16px;
+    position: absolute;
+    right: 40px;
+    color: blue;
+    cursor: pointer;
+}

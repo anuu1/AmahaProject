@@ -1,0 +1,54 @@
+.container {
+    /* transition: .25s; */
+    width: 100%;
+}
+
+.header-section {
+    padding: .75rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-column {
+    padding: 10px;
+    background-color: rgb(94, 133, 94);
+    width: 150px;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.add-column:hover {
+    background-color: rgb(79, 110, 79);
+    color: white;
+
+}
+
+.main-section {
+    padding: .5rem;
+    background-color: rgb(241, 241, 247);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(14rem, 1fr));
+    justify-content: center ;
+    gap: .5rem;
+}
+
+.user-name {
+    font-weight: 600;
+    /* margin: 0 20px; */
+}
+
+.logout {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.15); 
+    /* width: 150px; */
+    font-size: 1rem;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+.logout:hover {
+    background-color: rgba(0, 0, 0, 0.24); 
+}
