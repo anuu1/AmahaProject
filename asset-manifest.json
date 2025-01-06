@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AmahaProject/static/css/main.ba5ec96e.css",
-    "main.js": "/AmahaProject/static/js/main.594b283a.js",
+    "main.js": "/AmahaProject/static/js/main.eddd2610.js",
     "static/js/453.b995ab79.chunk.js": "/AmahaProject/static/js/453.b995ab79.chunk.js",
     "static/media/Display.svg": "/AmahaProject/static/media/Display.0168095040354204011b596e30abf32e.svg",
     "static/media/Cancelled.svg": "/AmahaProject/static/media/Cancelled.360749f102ea2ac68b5841e9f9ff29dd.svg",
@@ -20,11 +20,11 @@
     "static/media/Backlog.svg": "/AmahaProject/static/media/Backlog.97adf3356b7d2e775ef530f7aed206e0.svg",
     "static/media/To-do.svg": "/AmahaProject/static/media/To-do.c01d92afcffeef58b2cd9ae080df1f58.svg",
     "main.ba5ec96e.css.map": "/AmahaProject/static/css/main.ba5ec96e.css.map",
-    "main.594b283a.js.map": "/AmahaProject/static/js/main.594b283a.js.map",
+    "main.eddd2610.js.map": "/AmahaProject/static/js/main.eddd2610.js.map",
     "453.b995ab79.chunk.js.map": "/AmahaProject/static/js/453.b995ab79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba5ec96e.css",
-    "static/js/main.594b283a.js"
+    "static/js/main.eddd2610.js"
   ]
 }
